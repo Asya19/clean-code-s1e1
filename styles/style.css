@@ -42,7 +42,7 @@ body {
   font-size: 18px;
 }
 
-.tasks__input-wrapper {
+.tasks-input-wrapper {
   display: flex;
   padding-top: 20px;
 }

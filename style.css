@@ -21,17 +21,13 @@ body {
 .header { text-align: center;
 }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1
-}
-.task-row-wrapper {
+
+.task-input-wrapper {
   display: flex;
 }
 ul {
@@ -57,6 +53,14 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1
+}
 h3,
 label[for="new-task"] {
   color: #333;

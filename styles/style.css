@@ -20,13 +20,14 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
@@ -104,7 +105,6 @@ body {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,13 +118,13 @@ body {
   margin: 0 10px;
 }
 
-.task__btn img {
+.task__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.task__btn.delete img:hover {
+.task__delete-img:hover {
   transform: rotateZ(0);
 }
 
